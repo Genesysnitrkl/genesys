@@ -363,7 +363,7 @@
   margin:3px;
   border-radius:4px;
   background-color:orange;
-   
+  cursor: pointer;
 }
 #display-events{
   display:none;
