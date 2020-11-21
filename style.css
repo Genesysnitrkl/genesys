@@ -372,6 +372,53 @@
   color:red;
   padding-left:10px;
 }
+#winners-of-the-event{
+  text-align:center;
+  text-shadow:2px 5px 10px;
+  font-size: 2rem;
+}
+.winner-box{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:2em;
+  justify-content: space-around;
+  /* background:red; */
+   
+}
+.winner-box div{
+  background-color:#eee;
+  padding:1em;
+  text-align:center;
+  align-items: center; 
+  box-shadow: 2px 5px 10px;
+  margin:40px;
+  width:auto;
+  height:auto;
+}
+.winner-members-box img{
+   width:300px;
+}
+@media (max-width:767px){
+  .winner-box{
+    display:grid;
+    grid-template-columns: 1fr;
+    /* grid-gap:2em; */
+    justify-content: space-around;
+    /* background:red; */
+     
+  }
+  .winner-box img{
+    width:200px;
+  }
+  .winner-box div{
+    background-color:#eee;
+    padding:1em;
+    text-align:center;
+    align-items: center; 
+    box-shadow: 2px 5px 10px;
+    /* width:250px; */
+  }
+}
 /*----------------contact us-------------------*/
 .contact-page ul li{
   padding:2px;
