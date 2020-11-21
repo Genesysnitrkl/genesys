@@ -368,6 +368,10 @@
 #display-events{
   display:none;
 }
+#registration-closed{
+  color:red;
+  padding-left:10px;
+}
 /*----------------contact us-------------------*/
 .contact-page ul li{
   padding:2px;
