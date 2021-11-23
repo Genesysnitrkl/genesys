@@ -50,6 +50,18 @@
   .navbar ul li {
     display: inline-block;
   }
+  .navbar ul li::after{
+    content: ' ';
+    width: 0;
+    height: 2px;
+    background: #73fea8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
   .navbar ul li a {
     display: block;
     text-align: center;
