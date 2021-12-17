@@ -1,0 +1,42 @@
+.cp {
+  color: white;
+}
+
+/* .com-logo {
+  width: 12rem;
+} */
+
+#comlogo {
+  height: 150px;
+  border-radius: 1rem;
+  margin: 1rem 0;
+}
+
+.grad-header {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .grad-header::before {
+    position: absolute;
+    top: 50%;
+    right:41%;
+    overflow: hidden;
+    width: 50rem;
+    height: 3px;
+    content: '\a0';
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+  }
+  
+  @media only screen and (max-width: 1200px)
+  {
+    .grad-header {
+        text-align: center !important;
+    }
+    .grad-header::before {
+        display: none;
+    }
+  }
+  

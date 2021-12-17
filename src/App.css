@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+  font-weight: 500 !important;
+}
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 1.25rem;
+  /* added to to fix header above the footer on landing pg.*/
+}
+
+h3 {
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+.grad-text {
+    
+  background: linear-gradient(-45deg, #ee7752 20%, #e73c7e 40%, #23a6d5 60%, #23d5ab 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 6s ease infinite;
+}
