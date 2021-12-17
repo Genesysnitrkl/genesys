@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../Ready/ready.css";
-import daedarus from "../../images/daedarus.png";
+import "./ready.css";
 
 export default function Ready() {
   return (
