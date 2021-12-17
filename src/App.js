@@ -3,20 +3,14 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
-import Register from "./components/Register/Register";
-import Tale from "./components/About/Tale";
-import Ready from "./components/JourneySoFar/Ready";
-import Tracks from "./components/Tracks/Tracks";
+import About from "./components/About/Tale";
+import JourneySoFar from "./components/JourneySoFar/Ready";
 import Sponsors from "./components/Event-Page/Sponsors";
 import Community from "./components/Community/Community";
-import OC from "./components/OC/OC";
-import Speakers from "./components/Members/Members";
+import Members from "./components/Members/Members";
 import Events from "./components/Events/Events";
-import FAQ from "./components/FAQ/FAQ";
-import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
 import Video from "./components/Video/Video";
-import JM from "./components/JM/JM";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,35 +25,28 @@ function App() {
         <div className="content">
           <Switch>
             <Route path="/about">
-              <Tale />
-              <Ready />
-              {/* <Register/> */}
+              <About />
+              <JourneySoFar />
             </Route>
 
             <Route path="/members">
-              <Speakers />
-              {/* <OC/> */}
+              <Members />
             </Route>
 
             <Route path="/events">
               <Events />
             </Route>
 
-            <Route path="/genx-news">
+            <Route path="/events/genx-news">
               <Sponsors />
             </Route>
 
             <Route path="/">
               <Landing />
               <Video url="https://www.youtube.com/watch?v=uwQOHutRJqU" />
-              <Tale />
-              <Ready />
+              <About />
+              <JourneySoFar />
               <Events />
-              {/* <Tracks /> */}
-              {/* <Community /> */}
-              {/* <JM /> */}
-              {/* <FAQ /> */}
-              {/* <CTA /> */}
             </Route>
           </Switch>
         </div>

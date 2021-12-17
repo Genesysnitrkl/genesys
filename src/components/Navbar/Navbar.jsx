@@ -60,9 +60,6 @@ export default function NavBar() {
             >
               Events
             </Nav.Link>
-            <Nav.Link className="nav-toggles" href="/genx-news">
-              <em><s>Genx-News</s></em>
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

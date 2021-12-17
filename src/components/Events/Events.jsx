@@ -2,7 +2,7 @@ import { Container, Col, Row, NavLink } from "react-bootstrap";
 
 import "./Events.css";
 
-export default function Prizes() {
+export default function Events() {
   return (
     <div id="prizes">
       <Container className="py-5">
@@ -22,14 +22,15 @@ export default function Prizes() {
             data-aos-easing="ease-in-sine"
             sm
             className="pt-5"
-          ><NavLink href="/genx-news">
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-X News</h1>
+          >
+            <NavLink href="/events/genx-news">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize">Gen-X News</h1>
+                  </div>
                 </div>
               </div>
-            </div>
             </NavLink>
           </Col>
           <Col
@@ -49,7 +50,7 @@ export default function Prizes() {
           </Col>
         </Row>
         <Row>
-        <Col
+          <Col
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-easing="ease-in-sine"
