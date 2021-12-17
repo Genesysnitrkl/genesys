@@ -9,9 +9,9 @@ import Ready from "./components/JourneySoFar/Ready";
 import Tracks from "./components/Tracks/Tracks";
 import Sponsors from "./components/Event-Page/Sponsors";
 import Community from "./components/Community/Community";
-import OC from './components/OC/OC'
+import OC from "./components/OC/OC";
 import Speakers from "./components/Members/Members";
-import Prizes from "./components/Prizes/Prizes";
+import Events from "./components/Events/Events";
 import FAQ from "./components/FAQ/FAQ";
 import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
@@ -30,7 +30,6 @@ function App() {
 
         <div className="content">
           <Switch>
-
             <Route path="/about">
               <Tale />
               <Ready />
@@ -42,19 +41,25 @@ function App() {
               {/* <OC/> */}
             </Route>
 
+            <Route path="/events">
+              <Events />
+            </Route>
+
             <Route path="/genx-news">
               <Sponsors />
             </Route>
 
             <Route path="/">
               <Landing />
-              <Video url = "https://www.youtube.com/watch?v=uwQOHutRJqU"/>
-              <Tracks />
-              <Community />
-              <JM />
-              <Prizes />
-              <FAQ />
-              <CTA />
+              <Video url="https://www.youtube.com/watch?v=uwQOHutRJqU" />
+              <Tale />
+              <Ready />
+              <Events />
+              {/* <Tracks /> */}
+              {/* <Community /> */}
+              {/* <JM /> */}
+              {/* <FAQ /> */}
+              {/* <CTA /> */}
             </Route>
           </Switch>
         </div>

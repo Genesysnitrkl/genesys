@@ -1,4 +1,3 @@
-import React from "react";
 import "../Navbar/navbar.css";
 import logo from "../../images/genesys-logo-black.png";
 
@@ -54,6 +53,12 @@ export default function NavBar() {
               href="https://genesysnitrkl.wordpress.com/blog/"
             >
               Blog
+            </Nav.Link>
+            <Nav.Link
+              className="nav-toggles"
+              href="/events"
+            >
+              Events
             </Nav.Link>
             <Nav.Link className="nav-toggles" href="/genx-news">
               <em><s>Genx-News</s></em>

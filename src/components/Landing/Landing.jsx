@@ -13,7 +13,7 @@ export default function Landing() {
         className="topline"
         style={{ fontFamily: "Poppins" }}
       >
-        upper Subtitle
+        Welcome To
       </h3>
       <h1 data-aos="fade-up" data-aos-duration="1000" className="mainhead">
         Genesys
@@ -24,10 +24,10 @@ export default function Landing() {
         className="date"
         style={{ fontFamily: "Poppins" }}
       >
-        lower Subtitle
+        The Bioengineering Club of NIT Rourkela
       </h3>
 
-      <div className="my-4">
+      {/* <div className="my-4">
         <Button
           data-aos="fade-right"
           data-aos-duration="500"
@@ -41,7 +41,7 @@ export default function Landing() {
         >
           Action Button
         </Button>
-      </div>
+      </div> */}
     </div>
   );
 }
