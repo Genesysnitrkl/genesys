@@ -10,7 +10,7 @@ import Tracks from "./components/Tracks/Tracks";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Community from "./components/Community/Community";
 import OC from './components/OC/OC'
-import Speakers from "./components/Speakers/Speakers";
+import Speakers from "./components/Members/Members";
 import Prizes from "./components/Prizes/Prizes";
 import FAQ from "./components/FAQ/FAQ";
 import CTA from "./components/CTA/CTA";
@@ -44,7 +44,7 @@ function App() {
 
             <Route path="/">
               <Landing />
-              <Video url = "https://www.youtube.com/watch?v=vLDuc15hA-o"/>
+              <Video url = "https://www.youtube.com/watch?v=uwQOHutRJqU"/>
               <Tracks />
               <Sponsors />
               <Community />

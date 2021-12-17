@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 
-import "./Speakers.css";
+import "./Members.css";
 
 import photo1 from "../../speakers-photos/Arkodyuti.jpg";
 import photo2 from "../../speakers-photos/ashish.png";
