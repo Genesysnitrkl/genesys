@@ -7,7 +7,7 @@ import Register from "./components/Register/Register";
 import Tale from "./components/About/Tale";
 import Ready from "./components/JourneySoFar/Ready";
 import Tracks from "./components/Tracks/Tracks";
-import Sponsors from "./components/Sponsors/Sponsors";
+import Sponsors from "./components/Event-Page/Sponsors";
 import Community from "./components/Community/Community";
 import OC from './components/OC/OC'
 import Speakers from "./components/Members/Members";
@@ -42,11 +42,14 @@ function App() {
               {/* <OC/> */}
             </Route>
 
+            <Route path="/genx-news">
+              <Sponsors />
+            </Route>
+
             <Route path="/">
               <Landing />
               <Video url = "https://www.youtube.com/watch?v=uwQOHutRJqU"/>
               <Tracks />
-              <Sponsors />
               <Community />
               <JM />
               <Prizes />

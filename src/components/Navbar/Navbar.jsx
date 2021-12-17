@@ -38,14 +38,27 @@ export default function NavBar() {
         />
         <Navbar.Collapse id="responsive-navbar-nav" className="nav-links">
           <Nav className="ml-auto" style={{ fontFamily: "Poppins" }}>
-            <Nav.Link className="nav-toggles" href="/members">
-              Members
+            <Nav.Link className="nav-toggles" href="/">
+              Home
             </Nav.Link>
             <Nav.Link className="nav-toggles" href="/about">
               About
             </Nav.Link>
+            <Nav.Link className="nav-toggles" href="/members">
+              Members
+            </Nav.Link>
+            <Nav.Link
+              target="__blank"
+              rel="noreferrer noopener"
+              className="nav-toggles"
+              href="https://genesysnitrkl.wordpress.com/blog/"
+            >
+              Blog
+            </Nav.Link>
+            <Nav.Link className="nav-toggles" href="/genx-news">
+              <em><s>Genx-News</s></em>
+            </Nav.Link>
           </Nav>
-          
         </Navbar.Collapse>
       </Navbar>
     </div>
