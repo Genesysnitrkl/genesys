@@ -7,7 +7,7 @@ import photo1 from "../../speakers-photos/Arkodyuti.jpg";
 import photo2 from "../../speakers-photos/ashish.png";
 import photo3 from "../../speakers-photos/Logan Kilpatrick.jpg";
 
-export default function Speakers() {
+export default function Members() {
   return (
     <div className="speakers" id="speakers">
       <Container className="py-5">
@@ -18,7 +18,7 @@ export default function Speakers() {
           data-aos-easing="ease-in-sine"
           className="speak-text text-left grad-text"
         >
-          Meet our Team
+          Members
         </h1>
         <Row className="my-5">
           <Col>

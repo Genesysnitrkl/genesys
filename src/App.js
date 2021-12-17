@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import "./App.css";
 import NavBar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
 import About from "./components/About/Tale";
 import JourneySoFar from "./components/JourneySoFar/Ready";
-import Sponsors from "./components/Event-Page/Sponsors";
+import EventGenXNews from "./components/Event-Page/Sponsors";
 import Community from "./components/Community/Community";
 import Members from "./components/Members/Members";
 import Events from "./components/Events/Events";
@@ -38,7 +39,7 @@ function App() {
             </Route>
 
             <Route path="/events/genx-news">
-              <Sponsors />
+              <EventGenXNews />
             </Route>
 
             <Route path="/">
@@ -47,6 +48,7 @@ function App() {
               <About />
               <JourneySoFar />
               <Events />
+              <Members />
             </Route>
           </Switch>
         </div>

@@ -6,7 +6,7 @@
 .speak-text::after {
   position: absolute;
   top: 50%;
-  left: 30%;
+  left: 20%;
   overflow: hidden;
   width: 70rem;
   height: 3px;
