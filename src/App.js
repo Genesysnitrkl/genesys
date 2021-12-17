@@ -31,19 +31,19 @@ function App() {
         <div className="content">
           <Switch>
 
-            <Route path="/register">
-              <Register/>
+            <Route path="/about">
+              <Tale />
+              <Ready />
+              {/* <Register/> */}
             </Route>
 
-            <Route path="/organizers">
+            <Route path="/members">
               <Speakers />
               {/* <OC/> */}
             </Route>
 
             <Route path="/">
               <Landing />
-              <Tale />
-              <Ready />
               <Video url = "https://www.youtube.com/watch?v=vLDuc15hA-o"/>
               <Tracks />
               <Sponsors />

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Navbar/navbar.css";
-import logo from "../../images/genesys-logo.png";
+import logo from "../../images/genesys-logo-black.png";
 
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -38,10 +38,14 @@ export default function NavBar() {
         />
         <Navbar.Collapse id="responsive-navbar-nav" className="nav-links">
           <Nav className="ml-auto" style={{ fontFamily: "Poppins" }}>
-            <Nav.Link className="nav-toggles" href="/organizers">
-              Team
+            <Nav.Link className="nav-toggles" href="/members">
+              Members
+            </Nav.Link>
+            <Nav.Link className="nav-toggles" href="/about">
+              About
             </Nav.Link>
           </Nav>
+          
         </Navbar.Collapse>
       </Navbar>
     </div>

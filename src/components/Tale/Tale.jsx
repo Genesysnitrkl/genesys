@@ -1,26 +1,39 @@
-import React from 'react'
-import '../Tale/Tale.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import "../Tale/Tale.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Tale() {
-    return (
-        <div className="tale">
-            <Container className="pt-5">
-            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine" className="header1 text-right grad-text">DaeDalus' Tale</h1>
-            <Row>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                    <img className="daed-img" src="https://www.worldhistory.org/img/r/p/500x600/5052.jpg?v=1610998538" alt="daed-img" />
-                </Col>
-                <Col data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
-                    <h3 className="text-left para" id="tale">
-                    Daedalus was a skillful architect and craftsman from the Greek mythology, regarded as a man of wisdom and knowledge. Amongst his most popular creations was the Labyrinth which was used as a means to imprison the Minotaur. Daedarus is the amalgamation of Daedalus and Icarus (his son). 
-                    <br/><br/>
-                    With Daedarus’ Hack, create your own labyrinth of ideas, and use it to trap your desired project and help promote sustainable development for the greater good. 
-                    
-                    </h3>
-                </Col>
-            </Row>
-            </Container> 
-        </div>
-    )
+  return (
+    <div className="tale">
+      <Container className="pt-5">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine"
+          className="header1 text-right grad-text"
+        >
+          About
+        </h1>
+        <Row>
+          <Col
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+          >
+            <h3 className="text-left para" id="tale">
+              Gensys, the Bioengineering Club of NIT Rourkela registered under
+              SAC, was established with the motive to enable bioengineering
+              students to explore more beyond academics and to link biology with
+              technology for the benefit of the whole of Humanity. Genesys works
+              as a multidisciplinary field club connecting biology with all
+              other branches of engineering for the advancement in healthcare,
+              and environment. Our vision is to spread knowlege in the field of
+              bioengineering and connect globally as bioengineers and work to
+              meet the needs and challenges of society.
+            </h3>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }
