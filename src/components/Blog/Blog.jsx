@@ -40,13 +40,15 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-X Articles</h1>
+            <NavLink href="/events.genx-articles">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize">Gen-X Articles</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NavLink>
           </Col>
         </Row>
       </Container>

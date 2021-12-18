@@ -1,12 +1,11 @@
-import React from "react";
 import { Container, Col, Row, Button } from "react-bootstrap";
-import "./Sponsors.css";
+import "./EventPage.css";
 
-import sammplePhoto from "../../events-posters/poster-sample.png";
+import samplePhoto from "../../events-posters/poster-sample.png";
 
-export default function Sponsors() {
+export default function MazeHunt() {
   return (
-    <div className="sponsors" id="sponsors">
+    <div className="sponsors">
       <Container className="py-5">
         <br />
         <h1
@@ -32,6 +31,16 @@ export default function Sponsors() {
               className="spon-logos"
               src={
                 "http://res.cloudinary.com/dmrtodlkz/image/upload/v1613587106/yw5ofkpelj1ie1oepiev.jpg"
+              }
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <img
+              className="spon-logos"
+              src={
+                "http://res.cloudinary.com/dmrtodlkz/image/upload/v1613586521/axyjbqgs0cyobpkqfsnl.jpg"
               }
             />
           </Col>

@@ -23,13 +23,15 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-X Conference</h1>
+            <NavLink href="/events.genx-conference">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize">Gen-X Conference</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NavLink>
           </Col>
           <Col
             data-aos="fade-up"
@@ -38,13 +40,15 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-O Mania</h1>
+            <NavLink href="/events.geno-mania">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize">Gen-O Mania</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NavLink>
           </Col>
         </Row>
         <Row>
@@ -55,13 +59,15 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Maze Hunt</h1>
+            <NavLink href="/events.maze-hunt">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize">Maze Hunt</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NavLink>
           </Col>
           <Col
             data-aos="fade-up"
@@ -70,13 +76,15 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <div class="flip-card-prize">
-              <div class="flip-card-inner-prize">
-                <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize-un1">BPSDP</h1>
+            <NavLink href="/events.bpsdp">
+              <div class="flip-card-prize">
+                <div class="flip-card-inner-prize">
+                  <div class="flip-card-front-prize">
+                    <h1 className="mainhead1-prize-un1">BPSDP</h1>
+                  </div>
                 </div>
               </div>
-            </div>
+            </NavLink>
           </Col>
         </Row>
       </Container>
