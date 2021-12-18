@@ -24,9 +24,8 @@ import "aos/dist/aos.css";
 AOS.init();
 
 function App() {
-  console.log("the public url is ", process.env.PUBLIC_URL);
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <NavBar />
 
