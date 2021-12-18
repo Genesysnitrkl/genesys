@@ -23,7 +23,7 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <NavLink href="/events/genx-news">
+            <NavLink href="/events.genx-news">
               <div class="flip-card-prize">
                 <div class="flip-card-inner-prize">
                   <div class="flip-card-front-prize">

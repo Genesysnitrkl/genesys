@@ -38,7 +38,7 @@ function App() {
               <Events />
             </Route>
 
-            <Route path="/events/genx-news">
+            <Route path="/events.genx-news">
               <EventGenXNews />
             </Route>
 
