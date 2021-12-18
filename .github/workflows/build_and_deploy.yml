@@ -33,6 +33,11 @@ jobs:
           yarn build
         env:
           CI: false
+
+      - name: copy nojekyll to build
+        run: |
+          touch .nojekyll
+          mv .nojekyll build/.nojekyll
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.7

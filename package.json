@@ -2,6 +2,7 @@
   "name": "genesys-new-website",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://genesysnitrkl.github.io/genesys/",
   "dependencies": {
     "aos": "^2.3.4",
     "mdbreact": "^5.0.2",
