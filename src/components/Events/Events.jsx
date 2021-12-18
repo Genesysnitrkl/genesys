@@ -63,7 +63,7 @@ export default function Events() {
               <div class="flip-card-prize">
                 <div class="flip-card-inner-prize">
                   <div class="flip-card-front-prize">
-                    <h1 className="mainhead1-prize">Maze Hunt</h1>
+                    <h1 className="mainhead1-prize-un2">Maze Hunt</h1>
                   </div>
                 </div>
               </div>

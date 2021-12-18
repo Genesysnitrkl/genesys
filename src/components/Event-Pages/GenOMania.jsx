@@ -1,8 +1,6 @@
 import { Container, Col, Row, Button } from "react-bootstrap";
 import "./EventPage.css";
 
-import samplePhoto from "../../events-posters/poster-sample.png";
-
 export default function GenOMania() {
   return (
     <div className="sponsors">

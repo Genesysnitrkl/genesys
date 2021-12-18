@@ -155,7 +155,16 @@
   font-size: 5vmax;
   text-align: center;
   left: 25%;
-  /* font-weight: 600 !important; */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-65%);
+}
+
+.mainhead1-prize-un2 {
+  color: white;
+  font-size: 5vmax;
+  text-align: center;
+  left: 6.5%;
   position: absolute;
   top: 50%;
   transform: translateY(-65%);

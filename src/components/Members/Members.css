@@ -6,7 +6,7 @@
 .speak-text::after {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 25%;
   overflow: hidden;
   width: 70rem;
   height: 3px;
@@ -30,6 +30,7 @@
 }
 
 .speak-logos {
+  height: 250px;
   width: 230px;
   border-radius: 3rem;
 }
