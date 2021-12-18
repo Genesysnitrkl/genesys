@@ -33,6 +33,7 @@ jobs:
           yarn build
         env:
           CI: false
+          PUBLIC_URL: https://genesysnitrkl.github.io/genesys/
 
       - name: copy nojekyll to build
         run: |
