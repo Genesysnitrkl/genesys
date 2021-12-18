@@ -1,4 +1,4 @@
-.prizes-text {
+.prizes-text-blog {
   position: relative;
   overflow: hidden;
 }
@@ -8,10 +8,10 @@
   padding: 4rem;
 }
 
-.prizes-text::after {
+.prizes-text-blog::after {
   position: absolute;
   top: 50%;
-  right: 15%;
+  right: 10%;
   overflow: hidden;
   width: 70rem;
   height: 3px;
@@ -22,10 +22,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .prizes-text {
+  .prizes-text-blog {
     text-align: center !important;
   }
-  .prizes-text::after {
+  .prizes-text-blog::after {
     display: none;
   }
   .tba {
@@ -144,17 +144,6 @@
   color: white;
   font-size: 5vmax;
   text-align: center;
-  /* font-weight: 600 !important; */
-  position: absolute;
-  top: 50%;
-  transform: translateY(-65%);
-}
-
-.mainhead1-prize-un1 {
-  color: white;
-  font-size: 5vmax;
-  text-align: center;
-  left: 25%;
   /* font-weight: 600 !important; */
   position: absolute;
   top: 50%;

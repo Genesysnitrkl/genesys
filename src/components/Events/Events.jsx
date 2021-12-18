@@ -23,15 +23,13 @@ export default function Events() {
             sm
             className="pt-5"
           >
-            <NavLink href="/events.genx-news">
-              <div class="flip-card-prize">
-                <div class="flip-card-inner-prize">
-                  <div class="flip-card-front-prize">
-                    <h1 className="mainhead1-prize">Gen-X News</h1>
-                  </div>
+            <div class="flip-card-prize">
+              <div class="flip-card-inner-prize">
+                <div class="flip-card-front-prize">
+                  <h1 className="mainhead1-prize">Gen-X Conference</h1>
                 </div>
               </div>
-            </NavLink>
+            </div>
           </Col>
           <Col
             data-aos="fade-up"
@@ -43,7 +41,7 @@ export default function Events() {
             <div class="flip-card-prize">
               <div class="flip-card-inner-prize">
                 <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-X Articles</h1>
+                  <h1 className="mainhead1-prize">Gen-O Mania</h1>
                 </div>
               </div>
             </div>
@@ -60,7 +58,22 @@ export default function Events() {
             <div class="flip-card-prize">
               <div class="flip-card-inner-prize">
                 <div class="flip-card-front-prize">
-                  <h1 className="mainhead1-prize">Gen-X Conference</h1>
+                  <h1 className="mainhead1-prize">Maze Hunt</h1>
+                </div>
+              </div>
+            </div>
+          </Col>
+          <Col
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+            sm
+            className="pt-5"
+          >
+            <div class="flip-card-prize">
+              <div class="flip-card-inner-prize">
+                <div class="flip-card-front-prize">
+                  <h1 className="mainhead1-prize-un1">BPSDP</h1>
                 </div>
               </div>
             </div>

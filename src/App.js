@@ -6,12 +6,13 @@ import NavBar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
 import About from "./components/About/Tale";
 import JourneySoFar from "./components/JourneySoFar/Ready";
-import EventGenXNews from "./components/Event-Page/Sponsors";
+import EventGenXNews from "./components/Event-Pages/Sponsors";
 import Community from "./components/Community/Community";
 import Members from "./components/Members/Members";
 import Events from "./components/Events/Events";
 import Footer from "./components/Footer/Footer";
 import Video from "./components/Video/Video";
+import Blog from "./components/Blog/Blog";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,6 +39,10 @@ function App() {
               <Events />
             </Route>
 
+            <Route path="/blogs">
+              <Blog />
+            </Route>
+
             <Route path="/events.genx-news">
               <EventGenXNews />
             </Route>
@@ -47,6 +52,7 @@ function App() {
               <Video url="https://www.youtube.com/watch?v=uwQOHutRJqU" />
               <About />
               <JourneySoFar />
+              <Blog />
               <Events />
               <Members />
             </Route>

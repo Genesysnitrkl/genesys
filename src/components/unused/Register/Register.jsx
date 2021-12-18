@@ -1,9 +1,9 @@
 
 import React from 'react'
-import '../Register/Register.css'
+import './Register.css'
 // import { Button } from 'react-bootstrap'
 // import discord from '../../images/discord2.png'
-import FooterBackground from '../FooterBackground/FooterBackground'
+import FooterBackground from '../../FooterBackground/FooterBackground'
 // import ParticleBackground from '../ParticleBackground/ParticleBackground'
 // import Particles from 'react-particles-js';
 // import particlesConfig from '../../config/particle-config';
